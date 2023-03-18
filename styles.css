@@ -1,0 +1,138 @@
+/*************************TAG SELECTORS***************************/
+
+/********Adds background color to the body***********/
+
+body {
+  background-color: #eef2e6;
+}
+
+/********styles and positions the h1 text***********/
+h1 {
+  color: #1c6758;
+  text-align: center;
+  font-size: 3.125rem;
+}
+
+/********styles and positions the horizontal border***********/
+
+hr {
+  border-color: gainsboro;
+  border-style: dotted none none;
+  border-width: 0.5rem;
+  height: 0;
+  width: 5%;
+  padding-bottom: 0.46875rem;
+  margin-top: 3.125rem;
+  margin-bottom: 0.625rem;
+}
+
+/********styles the h2 text***********/
+
+h2 {
+  color: #1c6758;
+  font-size: 2.625rem;
+}
+
+img {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+/********styles and positions the navbar border***********/
+nav {
+  border-bottom: 1px solid black;
+  display: inline-block;
+}
+
+/********styles the foorter text***********/
+footer {
+  font-size: smaller;
+  color: #3d8361;
+}
+
+/********styles the paragraph text***********/
+p {
+  color: #3d8361;
+  font-size: 2.1875rem;
+  line-height: 0.625rem;
+}
+
+/********styles the unordered list items***********/
+ul {
+  color: #3d8361;
+  font-size: 2.1875rem;
+  margin-top: 3.125rem;
+}
+
+/*************************CLASS SELECTORS***************************/
+
+/*********Centers the footer********/
+
+.centerfooter {
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.3125rem;
+  padding-top: 6rem;
+}
+
+/*********styles content in the centernav container********/
+.centernav {
+  height: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2.5rem;
+}
+
+/*********styles and position the list in the navbar********/
+.jumpto ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/*********Displays the navbar horizontally********/
+.jumpto {
+  display: inline-block;
+}
+
+/********positions the links inthe navbar***********/
+.jumpto a {
+  display: inline-block;
+  padding: 0 0.3125rem;
+  font-size: x-large;
+  color: #999376;
+}
+
+/*************Styles the facts links***********/
+
+.learn {
+  color: #b4ad8a;
+  font-size: 2.1875rem;
+}
+
+/********Positions the to top link***********/
+.totop {
+  text-align: right;
+  margin-right: 1.25rem;
+  font-size: 1.5rem;
+}
+
+/**********Styles the to top link***********/
+
+.totop a {
+  color: #b4ad8a;
+}
+
+/********Positions the main content containers***********/
+
+.spacing {
+  padding-left: 1.5rem;
+}
+
+/********styles the link in the footer***********/
+.endtext a {
+  color: #b4ad8a;
+  font-size: 1rem;
+}
